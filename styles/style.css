@@ -16,6 +16,12 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+
+  border: 1px solid red;
+}
+
+section {
+  border: 1px solid red;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -31,3 +37,4 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
