@@ -123,6 +123,7 @@ section {
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
+  font-weight: normal;
 
   border: 1px solid red;
 }
@@ -138,8 +139,14 @@ section {
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
+  margin: 0px 0px 30px;
 
   border: 1px solid blue;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
