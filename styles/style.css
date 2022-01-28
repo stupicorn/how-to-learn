@@ -120,6 +120,9 @@ section {
 
 .two-columns__brief {
   width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
 
   border: 1px solid red;
 }
@@ -133,8 +136,14 @@ section {
 }
 
 .two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
 
   border: 1px solid blue;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 .digits {
