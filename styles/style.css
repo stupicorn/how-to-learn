@@ -137,19 +137,23 @@
 }
 
 .digits {
-
+  margin: 100px auto;
 }
 
 .section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: normal;
+  width: 60%;
+  margin: 0 0 20px;
 }
 
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width: 60%;
+  margin: 0;
 }
 
 .table {
@@ -162,18 +166,25 @@
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
 }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0 0 20px;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0 0 20px;
+}
+
+.table__text:last-child {
+  margin: 0;
 }
 
 .feynman {
