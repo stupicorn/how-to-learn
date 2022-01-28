@@ -8,8 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   color: #000000;
-
-  border: 1px solid red;
 }
 
 .header {
@@ -22,12 +20,6 @@
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-
-  border: 1px solid red;
-}
-
-section {
-  border: 1px solid red;
 }
 
 .logo {
@@ -40,8 +32,6 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   align-self: center;
-
-  border: 1px solid red;
 }
 
 .logo_place_header {
@@ -59,8 +49,6 @@ section {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -71,8 +59,6 @@ section {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
-  border: 1px solid red;
 }
 
 .header__link {
@@ -127,16 +113,12 @@ section {
   font-size: 18px;
   color: #2f80ed;
   font-weight: normal;
-
-  border: 1px solid red;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
-
-  border: 1px solid red;
 }
 
 .two-columns__paragraph {
@@ -144,8 +126,6 @@ section {
   font-size: 24px;
   font-weight: normal;
   margin: 0px 0px 30px;
-
-  border: 1px solid blue;
 }
 
 .two-columns__paragraph:last-child {
