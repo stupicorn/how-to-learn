@@ -305,10 +305,6 @@
   bottom: 0;
 }
 
-.column__content_info {
-
-}
-
 .footer__column-heading {
   color: white;
   line-height: 30px;
@@ -330,10 +326,6 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-}
-
-.column__content_social {
-
 }
 
 .footer__social-icon {
