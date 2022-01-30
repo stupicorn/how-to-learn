@@ -74,9 +74,6 @@
   width: 765px;
   right: 0;
   bottom: 0;
-  background-image: url(../images/header-image.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
