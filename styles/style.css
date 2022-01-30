@@ -331,9 +331,11 @@
 }
 
 .footer__column-links {
-  
-  border: 1px solid blue;
+  list-style-type: none;
   margin-bottom: 16px;
+  padding: 0;
+
+  border: 1px solid blue;
 }
 
 .footer__column-link {
