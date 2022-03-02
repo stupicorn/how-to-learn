@@ -29,15 +29,6 @@
   overflow: hidden;
 }
 
-.link-external {
-  opacity: 1;
-  transition: opacity 0.4s;
-}
-
-.link-external:hover {
-  opacity: 0.6;
-}
-
 .logo {
   position: absolute;
   background-size: contain;
@@ -84,6 +75,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+.header__link:hover {
+  opacity: 0.6;
 }
 
 .header__main-illustration {
@@ -291,6 +287,11 @@
   text-decoration: none;
   line-height: 42px;
   font-size: 30px;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+.khan__buy-link:hover {
+  opacity: 0.6;
 }
 
 .digits {
@@ -462,28 +463,32 @@
   list-style: none;
   justify-content: space-evenly;
   margin: 80px auto 217px;
-
   width: 1100px;
 }
 
 .resources__logo {
   width: 270px;
   height: 38px;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+.resources__logo:hover {
+  opacity: 0.6;
 }
 
-.resources__logo_arzamas {
+.resources__logo_type_arzamas {
   content: url(../images/logo/resources-arzamas.svg);
 }
 
-.resources__logo_np {
+.resources__logo_type_np {
   content: url(../images/logo/resources-n1.svg);
 }
 
-.resources__logo_strelka {
+.resources__logo_type_strelka {
   content: url(../images/logo/resources-strelka.svg);
 }
 
-.resources__logo_polka {
+.resources__logo_type_polka {
   content: url(../images/logo/resources-polka.svg);
 }
 
