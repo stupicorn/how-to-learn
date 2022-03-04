@@ -476,22 +476,6 @@
   opacity: 0.6;
 }
 
-.resources__logo_type_arzamas {
-  content: url(../images/logo/resources-arzamas.svg);
-}
-
-.resources__logo_type_np {
-  content: url(../images/logo/resources-n1.svg);
-}
-
-.resources__logo_type_strelka {
-  content: url(../images/logo/resources-strelka.svg);
-}
-
-.resources__logo_type_polka {
-  content: url(../images/logo/resources-polka.svg);
-}
-
 .footer {
   position: relative;
   min-height: 350px;
