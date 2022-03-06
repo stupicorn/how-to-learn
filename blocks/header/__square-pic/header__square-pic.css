@@ -1,0 +1,12 @@
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: 0;
+
+  animation: rotation 20s linear infinite;
+}
