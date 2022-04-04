@@ -6,4 +6,9 @@
   font-weight: normal;
   text-decoration: none;
   list-style-type: none;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+.footer__column-link:hover {
+  opacity: 0.6;
 }
